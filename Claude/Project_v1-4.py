@@ -1,9 +1,10 @@
-# Add Project now adding error calculation and convergence
+# Add Project now adding error calculation and convergence and plot in new file
 
 import tkinter as tk
 from tkinter import ttk
 import matplotlib
 matplotlib.use("TkAgg")
+import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg, NavigationToolbar2Tk
 from matplotlib.figure import Figure
 import numpy as np
@@ -79,15 +80,24 @@ class Application(tk.Tk):
         self.output_label.config(text=f"Solution: {solution}\nError (RMSE): {error:.6f}\n{convergence_info}")
 
         # Plot the solution
-        self.figure.clear()
-        ax = self.figure.add_subplot(111)
-        ax.plot(x, y, label='Approximate Solution')
-        ax.plot(x, exact_solution, '--', label='Exact Solution')
-        ax.set_title(equation)
-        ax.set_xlabel("X")
-        ax.set_ylabel("Y")
-        ax.legend()
-        self.canvas.draw()
+        # self.figure.clear()
+        # ax = self.figure.add_subplot(111)
+        # ax.plot(x, y, label='Approximate Solution')
+        # ax.plot(x, exact_solution, '--', label='Exact Solution')
+        # ax.set_title(equation)
+        # ax.set_xlabel("X")
+        # ax.set_ylabel("Y")
+        # ax.legend()
+        # self.canvas.draw()
+        # Plot the solution
+        plt.figure()
+        plt.plot(x, y, label='Approximate Solution')
+        plt.plot(x, exact_solution, '--', label='Exact Solution')
+        plt.title(equation)
+        plt.xlabel("X")
+        plt.ylabel("Y")
+        plt.legend()
+        plt.show()
 
 def calculate_rmse(approx, exact):
     return np.sqrt(np.mean((approx - exact) ** 2))
