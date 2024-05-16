@@ -1,0 +1,36 @@
+Numerical solutions to partial differential equations using Python and Matlab
+The numerical methods are used in many applications in science and engineering and are helpful in the use in graphing out functions and initial value problems. We will use Python and Matlab to study numerical techniques for solving some partial differential equations that arise in Engineering physics. Most of the ideas, and some of the syntax, that you learned for Matlab will transfer directly to Python. We'll work through some brief tutorials about Python at the beginning of each problem, focusing on the particular ideas that you'll need to complete that job. Hopefully, this study will make one Python experts.
+
+Project Requirements
+
+1. You should be able to discuss brief theory of problems which are modelled with patial differential equations (at most 2 pages).
+2. Your solution must be able to use appropriate methods to solve three real world problems related to partial differential equations with Matlab and Python.
+3. It should also compare results obtained by Matlab and Python programs.
+4. You should also compare exact solutions and approximate solutions from your developed programs with respect to errors.
+5. You should develop a GUI as it simplifies the utilization of these methods by providing an intuitive and interactive interface, eliminating the need for extensive programming knowledge
+6. You should prepare a report to mention all requirements of the project and details of solution to problems.
+
+
+Working input values:
+
+Heat Conduction:
+
+Input 1: Length (e.g., 1.0)
+Input 2: Thermal Conductivity (e.g., 10.0)
+Input 3: Temperature Difference (e.g., 100.0)
+Input 4: Time (e.g., 0.1)
+
+
+Wave Equation:
+
+Input 1: Frequency (e.g., 1.0)
+Input 2: Amplitude (e.g., 1.0)
+Input 3: Phase (e.g., 0.0)
+Input 4: Time (e.g., 1.0)
+
+
+Fluid Flow:
+
+Input 1: Velocity (e.g., 10.0)
+Input 2: Pressure (e.g., 1000.0)
+Input 3: Density (e.g., 1.225)

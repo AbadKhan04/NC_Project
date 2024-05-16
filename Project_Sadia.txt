@@ -1,0 +1,12 @@
+Proj 01: Developing movie of a flying projectile using Matlab and Python
+
+The projectile motion, a branch of a complex physics and an interesting phenomenon of investigation for many centuries till today. It deals with the study of substantially below the speed of light. The advancement of the problem has come from three fields: physics, mathematics, and computation for various industry, civil, and military applications. As a physical and mathematical in nature, the focus has been given on the methods for computation, simulation and analysis of the governing equations of motion. In this project, the projectile motion with various drag forces: (a) zero drag, (b) linear drag, (c) quadratic drag are computed, simulated and analysed for predicting various trajectories profiles with three set of input parameters using MATLAB source codes.
+
+Project Requirements
+1. You should be able to discuss brief theory of projectile motion with various drag forces (at most 2 pages).
+2. Your solution must be able to demonstrate calculations to solve the projectile motion with various drag forces: (a) zero drag, (b) linear drag, (c) quadratic drag with Matlab.
+3. It should also compare results obtained by Matlab and Python programs.
+4. You should also compare exact solutions and approximate solutions from your developed programs with respect to errors.
+5. You should develop a GUI as it simplifies the utilization of these methods by providing an intuitive and interactive interface, eliminating the need for extensive programming knowledge
+6. You should prepare a report to mention all requirements of the project and details of solution to problems.
+7. Useful plots of projectile motion with different cases be included in the project report.
