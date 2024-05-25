@@ -1,5 +1,3 @@
-# Add Project now adding error calculation and convergence and plot in new file
-
 import tkinter as tk
 from tkinter import ttk
 import matplotlib
